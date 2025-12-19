@@ -59,7 +59,7 @@ class ActiveRecord {
         return $propiedades;
     }
 
-    public function sanitizePoperty() {
+    public function sanitizeProperty() {
         $propiedades = $this->property();
         $sanitizado = [];
         foreach($propiedades as $key => $value ) {
@@ -179,7 +179,7 @@ class ActiveRecord {
     }
 
     public function create() {
-        $propiedades = $this->sanitizePoperty();
+        $propiedades = $this->sanitizeProperty();
         $query = " INSERT INTO " . static::$tabla . " ( ";
         $query .= join(', ', array_keys($propiedades));
         $query .= " ) VALUES ('"; 
@@ -201,7 +201,7 @@ class ActiveRecord {
     }
 
     public function update() {
-        $propiedades = $this->sanitizePoperty();
+        $propiedades = $this->sanitizeProperty();
 
         $valores = [];
         foreach($propiedades as $key => $value) {
