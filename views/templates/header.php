@@ -21,7 +21,7 @@
             <a href="/">
                 <h1 class="header__logo">&#60DevWebCamp /></h1>
             </a>
-            <p class="header__texto">3 y 4 de Octubre de 2025</p>
+            <p class="header__texto">3 y 4 de Octubre de <?= date('Y') ?></p>
             <p class="header__texto header__texto--modalidad">En Línea - Presencial</p>
             <a href="/registro" class="header__boton">Comprar Entrada</a>
         </div>

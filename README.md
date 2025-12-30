@@ -1,7 +1,7 @@
 <table width="100%" align="center">
   <tr>
     <td align="center" valign="middle">
-      <h1>DevWebCamp - Conference Management</h1>
+      <h1>🎟️ DevWebCamp - Conference Management</h1>
       <p><b>Arquitectura MVC Personalizada para Gestión de Eventos de Alto Rendimiento</b></p>
       <hr width="50%" />
       <p>PHP 8 | MySQL | JavaScript ES6 | SASS | Gulp</p>
