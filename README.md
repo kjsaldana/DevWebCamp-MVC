@@ -9,6 +9,33 @@
   </tr>
 </table>
 
+<table>
+  <tr>
+    <td width="50%">
+      <div align="center">
+        <img src="./assets/screenshots/sch1.webp" width="100%" alt="Vista 1">
+      </div>
+    </td>
+    <td width="50%">
+      <div align="center">
+        <img src="./assets/screenshots/sch2.webp" width="100%" alt="Vista 2">
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%">
+      <div align="center">
+        <img src="./assets/screenshots/sch3.webp" width="100%" alt="Vista 3">
+      </div>
+    </td>
+    <td width="50%">
+      <div align="center">
+        <img src="./assets/screenshots/sch4.webp" width="100%" alt="Vista 4">
+      </div>
+    </td>
+  </tr>
+</table>
+
 ## Visión General
 
 **DevWebCamp** no es solo una web de conferencias; es una plataforma robusta diseñada para manejar el ciclo de vida completo de un evento tecnológico. Implementa una lógica de negocio compleja que incluye **control de aforo en tiempo real**, pasarela de pagos internacional y un sistema de autenticación de doble factor vía email.
