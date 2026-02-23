@@ -1,7 +1,8 @@
-<?php 
+<?php
 
 use Dotenv\Dotenv;
 use Model\ActiveRecord;
+
 require __DIR__ . '/../vendor/autoload.php';
 
 // Añadir Dotenv

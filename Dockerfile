@@ -5,6 +5,7 @@ RUN apt-get update && apt-get install -y \
     && docker-php-ext-install mysqli pdo pdo_mysql zip
 
 RUN a2enmod rewrite
+RUN a2dismod mpm_event mpm_worker || true
 
 COPY --from=composer:latest /usr/bin/composer /usr/bin/composer
 COPY composer.json composer.lock ./
@@ -24,3 +25,5 @@ RUN echo "<Directory /var/www/html/public>" >> /etc/apache2/apache2.conf && \
     echo "</Directory>" >> /etc/apache2/apache2.conf
 
 RUN chown -R www-data:www-data /var/www/html
+
+CMD sed -i "s/80/${PORT:-80}/g" /etc/apache2/sites-available/000-default.conf /etc/apache2/ports.conf && apache2-foreground
