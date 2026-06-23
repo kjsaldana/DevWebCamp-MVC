@@ -40,7 +40,7 @@
 
 **DevWebCamp** no es solo una web de conferencias; es una plataforma robusta diseñada para manejar el ciclo de vida completo de un evento tecnológico. Implementa una lógica de negocio compleja que incluye **control de aforo en tiempo real**, pasarela de pagos internacional y un sistema de autenticación de doble factor vía email.
 
-El núcleo del proyecto es un **Framework MVC propio**, construido para maximizar el control sobre el flujo de datos y evitar el "overhead" de frameworks comerciales en procesos críticos.
+El núcleo del proyecto es un **Framework MVC propio**, construido para maximizar el control sobre el flujo de datos y evitar el "overhead" de frameworks comerciales en procesos críticos (MVC).
 
 ---
 
